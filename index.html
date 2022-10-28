@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hitaka sushi</title>
+    <meta property="og:title" content="hitaka sushi" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="js.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home1-container">
+        <div class="home1-homepage">
+          <div class="home1-footer">
+            <span class="home1-text">
+              <span>© 2022 All Rights Reserved</span>
+            </span>
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/c890cc50-93cb-4b3a-92f1-3d3cf28d3c38?org_if_sml=1190"
+              alt="h5before780"
+              class="home1-h5before"
+            />
+            <span class="home1-text02"><span>Follow Us:</span></span>
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/57828518-1a06-4939-abab-c27e9cddb542?org_if_sml=11104"
+              alt="fbpng783"
+              class="home1-fbpng"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/ac98ee06-e740-4b59-8f64-8a2ee73daf1a?org_if_sml=11240"
+              alt="twitterpng784"
+              class="home1-twitterpng"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/bce5b490-7293-410a-92ec-b12dbfac5726?org_if_sml=11278"
+              alt="linkedinpng785"
+              class="home1-linkedinpng"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/13449f70-3617-4dbc-afc4-af4246537467?org_if_sml=11366"
+              alt="instapng786"
+              class="home1-instapng"
+            />
+            <span class="home1-text04"><span>Address</span></span>
+            <span class="home1-text06"><span>+01 12345678</span></span>
+            <span class="home1-text08"><span>demo@gmail.com</span></span>
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/94dfb0bf-9fd0-4e23-9bb8-9c2e8d80bac9?org_if_sml=19391"
+              alt="logo791"
+              class="home1-logo"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/4eeecaac-c19e-4dc5-b75a-05516822c15c?org_if_sml=1673"
+              alt="locationpng760"
+              class="home1-locationpng"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/0e01667f-19d0-41a0-83ae-80d3577497fa?org_if_sml=1495"
+              alt="phonepng763"
+              class="home1-phonepng"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/14a7e1c0-044f-46d7-9adb-0af634018fc9?org_if_sml=1493"
+              alt="mailpng766"
+              class="home1-mailpng"
+            />
+          </div>
+          <div class="home1-main">
+            <div class="home1-group163">
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/400994b2-89fa-4753-992a-a66631caab94?org_if_sml=15680"
+                alt="Rectangle4753"
+                class="home1-rectangle4"
+              />
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/d08f032b-4817-4881-84bb-78df57d41ad7?org_if_sml=1121376"
+                alt="img21750"
+                class="home1-img21"
+              />
+              <span class="home1-text10">
+                <span>
+                  When I moved from china to morocco, parting ways with my
+                  favorite Japanese restaurant venue was hard… Luckily here I’ve
+                  found an even better quality both for the menu and everything
+                  else!
+                </span>
+              </span>
+              <span class="home1-text12">
+                <span>WHAT OUR HAPPY CLIENT SAY</span>
+              </span>
+              <span class="home1-text14"><span>Alfred:</span></span>
+            </div>
+            <div class="home1-group176">
+              <div class="home1-group161">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/d7cfba4d-3401-40cb-a0ee-5a6aabf8e785?org_if_sml=113822"
+                  alt="image3735"
+                  class="home1-image3"
+                />
+                <span class="home1-text16">
+                  <span>
+                    We have an extensive range of traditional Japanese lunches
+                    and dinners, which includes all the traditional food items
+                    this country is associated with – from sushi rolls to tofu
+                    and dim sum
+                  </span>
+                </span>
+                <span class="home1-text18"><span>TRADITIONAL</span></span>
+              </div>
+              <div class="home1-group160">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/9e35072d-5ea6-4bdd-9425-30c00d156154?org_if_sml=120478"
+                  alt="image4739"
+                  class="home1-image4"
+                />
+                <span class="home1-text20">
+                  <span>
+                    Besides cooking and serving a wide range of well-known
+                    Japanese dishes, we also focus on introducing the Westerners
+                    to all of the range of meals that the versatile Japanese
+                    culture has produced over the centuries!
+                  </span>
+                </span>
+                <span class="home1-text22"><span>NEW</span></span>
+              </div>
+              <div class="home1-group162">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/b23a0bda-f403-4c8c-a2ba-cce9b1067dbb?org_if_sml=117707"
+                  alt="image5743"
+                  class="home1-image5"
+                />
+                <span class="home1-text24">
+                  <span>
+                    Be sure that besides being delicious all of the ingredients
+                    that we’re using for preparing our dishes are fresh and
+                    absolutely healthy for you! This is especially true when we
+                    talk about the fish and seafood meals, like sushi!
+                  </span>
+                </span>
+                <span class="home1-text26"><span>FRESH</span></span>
+              </div>
+              <span class="home1-text28">
+                <span>REASONS TO VISIT OUR RESTAURANT</span>
+              </span>
+            </div>
+            <div class="home1-group175">
+              <span class="home1-text30">
+                <span>
+                  We are proud of our restaurant with the highest-quality
+                  products, most inviting places, friendliest staff and the best
+                  sushi in the world.
+                </span>
+              </span>
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/0f7d7d7a-01f1-4728-96b3-f1ee7b8246dd?org_if_sml=1125796"
+                alt="mt1493homeimg51723"
+                class="home1-mt1493homeimg51"
+              />
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/f851874b-1ad4-4e2d-a1f6-c68dcad37b1e?org_if_sml=1122699"
+                alt="mt1493homeimg61724"
+                class="home1-mt1493homeimg61"
+              />
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/ca91d840-e49e-4cd5-a762-aff9a5f2d562?org_if_sml=1141688"
+                alt="mt1493homeimg71725"
+                class="home1-mt1493homeimg71"
+              />
+              <span class="home1-text32"><span>WHO ARE WE</span></span>
+              <span class="home1-text34"><a href="about.html">goto about</a></span>
+              <span class="home1-text36"><a href="menu.html">goto menu</a></span>
+              <span class="home1-text38"><a href="contact.html">goto contact</a></span>
+              <span class="home1-text40"><span>OUR MENU</span></span>
+              <span class="home1-text42"><span>CONTACT US</span></span>
+            </div>
+            <div class="home1-group174">
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/f2c04806-ede4-4a67-87b4-1cb3546a0497?org_if_sml=11308742"
+                alt="sushi258377519201720"
+                class="home1-sushi258377519201"
+              />
+              <span class="home1-text44">
+                <span>EXQUISITE RESTAURANT IN THE HEART OF THE CITY</span>
+              </span>
+            </div>
+            <span class="home1-text46"><a href="menu.html">view our menu page</a></span>
+            <div class="home1-group173">
+              <div class="home1-group5">
+                <span class="home1-text48"><span>Assorted nigiri sushi with makimono served with clear soup.</span></span>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/f59b0f97-f296-4d8e-8299-9fa2ec5d7267?org_if_sml=1408277"
+                  alt="image2610"
+                  class="home1-image2"
+                />
+                <span class="home1-text50"><span>sushi rolls</span></span>
+                
+              </div>
+              <div class="home1-group6">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/3127f751-8cc2-46b4-840e-0e7e1eb5da61?org_if_sml=1303760"
+                  alt="image167"
+                  class="home1-image1"
+                />
+                <span class="home1-text56"><span>maki-zushi</span></span>
+                <span class="home1-text48"><span>Assorted nigiri sushi with makimono served with clear soup.</span></span>            
+              </div>
+              <span class="home1-text60"><span>TOP MENU</span></span>
+            </div>
+            <div class="home1-group157">
+              <img
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/7b7754a4-a251-40cf-99d6-b969139ecce7?org_if_sml=11378892"
+                alt="japan2836904164"
+                class="home1-japan28369041"
+              />
+              <span class="home1-text62">
+                <span>hitaka sushi restaurant</span>
+              </span>
+            </div>
+          </div>
+          <div class="home1-nav">
+            <span class="home1-text64"><span>home</span></span>
+            <span class="home1-text66"><a href="menu.html">menu</a></span>
+            <span class="home1-text68"><a href="about.html">about</a></span>
+            <span class="home1-text70"><a href="contact.html">contact</a></span>
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/cb45cc85-9365-4d64-ab33-f9b033b0c9e3?org_if_sml=1123"
+              alt="rect1436"
+              class="home1-rect"
+            />
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/93838f7d-b508-4d8d-89cd-13c783632e9f?org_if_sml=19391"
+              alt="logo4233"
+              class="home1-logo1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone">
+      <link href="./index-mobile.css" rel="stylesheet" />
+
+      <div class="home-mobile-container">
+        <div class="home-mobile-homemobile">
+          <div class="home-mobile-nav">
+            <a onclick="toggel()"><img
+              alt="IconsaxLinearhambergermenu1877"
+              src="public/playground_assets/iconsaxlinearhambergermenu1877-scpc.svg"
+              class="home-mobile-iconsax-linearhambergermenu"
+            /></a>
+            <img
+              alt="pgy4o7wamccp6hti8ljbgScreenshot20221024100700SREZr1877"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/111d62c0-36cf-4753-b8e7-4af6f036e127?org_if_sml=15449"
+              class="home-mobile-pgy4o7wamccp6hti8ljbg-screenshot20221024100700s-r-e-zr"
+            />
+          </div>
+          <div class="nav" id="toggel">
+            <a onclick="toggel0()"><img
+              alt="IconsaxLinearhambergermenu2181"
+              src="public/playground_assets/iconsaxlinearhambergermenu2181-9r8o.svg"
+              class="home-mobile-iconsax-linearhambergermenu1"
+            /></a>
+            <a href="index.html">home</a>
+            <a href="menu.html">menu</a>
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+          </div>
+          <div class="home-mobile-group157">
+            <img
+              alt="japan283690411877"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/af1df994-c933-4f87-8ecb-0f67afa52e7c?org_if_sml=1152027"
+              class="home-mobile-japan28369041"
+            />
+            <span class="home-mobile-text">
+              <span>hitaka sushi restaurant</span>
+            </span>
+          </div>
+          <span class="home-mobile-text02"><span>TOP MENU</span></span>
+          <div class="home-mobile-group6">
+            <img
+              alt="image11890"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/2e9af833-cdab-4e2f-9235-dfdb67c614c5?org_if_sml=1149050"
+              class="home-mobile-image1"
+            />
+            <span class="home-mobile-text04"><span>maki-zushi</span></span>
+            <span class="home-mobile-text06"><span>Assorted nigiri sushi with makimono served with clear soup.</span></span>
+            
+          </div>
+          <div class="home-mobile-group5">
+            <span class="home-mobile-text10"><span>Assorted nigiri sushi with makimono served with clear soup.</span></span>
+            <img
+              alt="image2214"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/501e54cd-b662-404b-b751-1c16432c9652?org_if_sml=1179439"
+              class="home-mobile-image2"
+            />
+            <span class="home-mobile-text12"><span>sushi rolls</span></span>
+            
+          </div>
+          <span class="home-mobile-text16">
+            <a href="menu.html">view our menu page</a>
+          </span>
+          <img
+            alt="sushi2583775192012110"
+            src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/ed89c00a-6a9e-485e-96a8-4ac986a01f68?org_if_sml=1248642"
+            class="home-mobile-sushi258377519201"
+          />
+          <span class="home-mobile-text18">
+            <span>EXQUISITE RESTAURANT IN THE HEART OF THE CITY</span>
+          </span>
+          <span class="home-mobile-text20">
+            <span>
+              We are proud of our restaurant with the highest-quality products,
+              most inviting places, friendliest staff and the best sushi in the
+              world.
+            </span>
+          </span>
+          <span class="home-mobile-text22">
+            <span>REASONS TO VISIT OUR RESTAURANT</span>
+          </span>
+          <div class="home-mobile-group159">
+            <img
+              alt="image32114"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/ede95388-0dd0-4d56-86fd-61a7e5d89a9f?org_if_sml=113822"
+              class="home-mobile-image3"
+            />
+            <span class="home-mobile-text24">
+              <span>
+                We have an extensive range of traditional Japanese lunches and
+                dinners, which includes all the traditional food items this
+                country is associated with – from sushi rolls to tofu and dim
+                sum
+              </span>
+            </span>
+          </div>
+          <div class="home-mobile-group160">
+            <img
+              alt="image42119"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/3a6a1009-cc06-4aad-ae07-564af55aa258?org_if_sml=120478"
+              class="home-mobile-image4"
+            />
+            <span class="home-mobile-text26">
+              <span>
+                Besides cooking and serving a wide range of well-known Japanese
+                dishes, we also focus on introducing the Westerners to all of
+                the range of meals that the versatile Japanese culture has
+                produced over the centuries!
+              </span>
+            </span>
+          </div>
+          <div class="home-mobile-group162">
+            <img
+              alt="image52124"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/307e0cba-a624-4ae2-9c67-9570d9f3cc5a?org_if_sml=117707"
+              class="home-mobile-image5"
+            />
+            <span class="home-mobile-text28">
+              <span>
+                Be sure that besides being delicious all of the ingredients that
+                we’re using for preparing our dishes are fresh and absolutely
+                healthy for you! This is especially true when we talk about the
+                fish and seafood meals, like sushi!
+              </span>
+            </span>
+          </div>
+          <span class="home-mobile-text30">
+            <span>WHAT OUR HAPPY CLIENT SAY</span>
+          </span>
+          <div class="home-mobile-group163">
+            <img
+              alt="img212130"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/e745c578-0539-4463-bd65-d20ba95c89b2?org_if_sml=1115022"
+              class="home-mobile-img21"
+            />
+            <span class="home-mobile-text32">
+              <span>
+                When I moved from china to morocco, parting ways with my
+                favorite Japanese restaurant venue was hard… Luckily here I’ve
+                found an even better quality both for the menu and everything
+                else!
+              </span>
+            </span>
+          </div>
+          <div class="home-mobile-footer">
+            <img
+              alt="pgy4o7wamccp6hti8ljbgScreenshot20221024100700SREZr2155"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/7cbde49e-4136-4b4d-af30-b057553fb714?org_if_sml=19460"
+              class="home-mobile-pgy4o7wamccp6hti8ljbg-screenshot20221024100700s-r-e-zr1"
+            />
+            <span class="home-mobile-text34">
+              <span>© 2022 All Rights Reserved</span>
+            </span>
+            <div class="home-mobile-group167">
+              <img
+                alt="h5before2158"
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/17aeeebf-3e50-40c2-b097-8cbe76bdfe18?org_if_sml=1190"
+                class="home-mobile-h5before"
+              />
+              <span class="home-mobile-text36"><span>Follow Us:</span></span>
+            </div>
+            <div class="home-mobile-group166">
+              <span class="home-mobile-text38">
+                <span>demo@gmail.com</span>
+              </span>
+              <img
+                alt="mailpng2162"
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/5a2ef02c-5f93-43eb-94aa-182d1b923d04?org_if_sml=1493"
+                class="home-mobile-mailpng"
+              />
+            </div>
+            <div class="home-mobile-group164">
+              <span class="home-mobile-text40"><span>Address</span></span>
+              <img
+                alt="locationpng2165"
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/1971e6bc-f53e-404c-8052-c0b8bcd9cafb?org_if_sml=1631"
+                class="home-mobile-locationpng"
+              />
+            </div>
+            <div class="home-mobile-group165">
+              <span class="home-mobile-text42">
+                <span>+01 12345678</span>
+              </span>
+              <img
+                alt="phonepng2168"
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/03bf8696-7957-4437-8bae-d2504d307481?org_if_sml=1495"
+                class="home-mobile-phonepng"
+              />
+            </div>
+            <img
+              alt="fbpng2169"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/e4b90cec-706d-4f20-bc84-4209377f9b60?org_if_sml=11077"
+              class="home-mobile-fbpng"
+            />
+            <img
+              alt="twitterpng2170"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/2fbff649-8a8a-47e7-bbf6-602229684703?org_if_sml=11248"
+              class="home-mobile-twitterpng"
+            />
+            <img
+              alt="linkedinpng2171"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/99226759-67b9-479b-aaa8-37e9b831d1e9?org_if_sml=11252"
+              class="home-mobile-linkedinpng"
+            />
+            <img
+              alt="instapng2172"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/be292202-77a2-4b17-8b25-826fb0d8debc/61d2daf8-9517-4d9b-8a2d-19326502d333?org_if_sml=11405"
+              class="home-mobile-instapng"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
