@@ -116,6 +116,10 @@ function toggel(){
     sushi.style.display = "none";
   } 
 
+  function order(){
+    alert(" Thank you for buying from Hitaka Shushi \n your order is confirmed");
+  }
+
 function Create2DArray(rows,columns) {
     var x = new Array(rows);
     for (var i = 0; i < rows; i++) {
