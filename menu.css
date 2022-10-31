@@ -283,6 +283,32 @@
   justify-content: center;
   background-color: rgb(0, 0, 0);
 }
+.button2{
+  top: 70px;
+  left: 5px;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: azure;
+}
+.button{
+  top: 70px;
+  left: 5px;
+  width: 90px;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-radius: 30px;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: azure;
+}
 .menu-rectangle8 {
   top: 2680px;
   left: 0px;
