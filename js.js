@@ -117,7 +117,7 @@ function toggel(){
   } 
 
   function order(){
-    alert(" Thank you for buying from Hitaka Shushi \n your order is confirmed");
+    alert(" Thank you for buying from Hitaka Sushi \n your order is confirmed");
   }
 
 function Create2DArray(rows,columns) {
