@@ -1,5 +1,5 @@
 .home-mobile-container {
-  width: 390px;
+  width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
@@ -11,8 +11,6 @@
   height: 5174px;
   display: flex;
   position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
   border-color: transparent;
   background-color: rgba(255, 255, 255, 1);
 }
@@ -330,9 +328,9 @@
 }
 .home-mobile-text16 {
   top: 1388px;
-  left: -21px;
+  left: 12px;
   color: rgba(225, 45, 59, 1);
-  width: 435px;
+  width: 370px;
   height: auto;
   position: absolute;
   font-size: 24px;
